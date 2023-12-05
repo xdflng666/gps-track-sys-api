@@ -1,0 +1,6 @@
+env: "local" # local, dev, prod
+storage_path: "./storage/storage.db" # path to db file
+http_sever:
+  address: "localhost:8080"
+  timeout: 4s # get\send request timeout
+  idle_timeout: 60s # connection timeout
